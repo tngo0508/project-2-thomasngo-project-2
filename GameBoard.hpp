@@ -54,15 +54,16 @@ public:
 		  check[80] = 100;
 
 		  //landing and new squares for chutes
-		  check[1] = 38;
-		  check[4] = 14;
-		  check[9] = 31;
-		  check[21] = 42;
-		  check[28] = 84;
-		  check[36] = 44;
-		  check[51] = 67;
-		  check[71] = 91;
-		  check[80] = 100;
+		  check[16] = 6;
+		  check[47] = 26;
+		  check[49] = 11;
+		  check[56] = 53;
+		  check[62] = 19;
+		  check[64] = 60;
+		  check[87] = 24;
+		  check[93] = 73;
+		  check[95] = 75;
+		  check[98] = 78;
 
 		  map<int, int>::const_iterator iter;
 		  for (iter = check.begin(); iter != check.end(); iter++)
